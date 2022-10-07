@@ -1,0 +1,58 @@
+# Inserts a blank line between shell prompts
+#add_newline = true
+
+# Replace the "❯" symbol in the prompt with "➜"
+[character]                            # The name of the module we are configuring is "character"
+success_symbol = "[](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+error_symbol = "[✘](bold red)"
+# Disable the package module, hiding it from the prompt completely
+#[package]
+disabled = false
+
+[hostname]
+ssh_only = false
+format =  "[$hostname ](bold blue) "
+trim_at = "-"
+disabled = false
+
+[username]
+style_user = "bold white "
+style_root = "bold black "
+format = "[$user](bold yellow)($style)@"
+disabled = false
+show_always = true
+
+[directory]
+read_only = "  "
+style = "bold cyan"
+format = '\[[$path]($style)[$read_only](red)\]'
+
+[memory_usage]
+symbol = " "
+format = '\[$symbol[$ram(|$swap)]($style)\]'
+threshold = 60
+style = "bold dimmed white"
+disabled = false
+
+[package]
+symbol = " "
+format = '\[[$symbol$version]($style)\]'
+
+[cmd_duration]
+format = '\[[⏱ $duration]($style)\]'
+min_time = 10_000  # Show command duration over 10,000 milliseconds (=10 sec)
+
+[sudo]
+format = '\[[as $symbol]\]'
+
+[time]
+format = '\[[$time]($style)\]'
+
+[battery]
+full_symbol = "🔋"
+charging_symbol = "🔌"
+discharging_symbol = "⚡"
+
+[[battery.display]]
+threshold = 30
+style = "bold red"
