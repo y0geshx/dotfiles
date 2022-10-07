@@ -1,2 +1,0 @@
-# dotfiles
-Vibrantifx's Dotfiles
