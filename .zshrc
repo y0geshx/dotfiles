@@ -5,7 +5,7 @@ NEWLINE=$'\n'
 #PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%1~%f%b %# '
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="yx"
+ZSH_THEME="vibrantifix"
 
 #source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
