@@ -9,7 +9,7 @@ ZSH_THEME="vibrantifix"
 
 #source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
-plugins=(git F-Sy-H zsh-autosuggestions)
+plugins=(git F-Sy-H zsh-autosuggestions sublime)
 source $ZSH/oh-my-zsh.sh
 #fzf dracula
 #export FZF_DEFAULT_OPTS='--color=fg:#f8f8f2,bg:#282a36,hl:#bd93f9 --color=fg+:#f8f8f2,bg+:#44475a,hl+:#bd93f9 --color=info:#ffb86c,prompt:#50fa7b,pointer:#ff79c6 --color=marker:#ff79c6,spinner:#ffb86c,header:#6272a4'
@@ -36,6 +36,7 @@ ex ()
     case $1 in
       *.tar.bz2)   tar xjf $1   ;;
       *.tar.gz)    tar xzf $1   ;;
+      *.tar.xz)    tar xvf $1   ;;
       *.bz2)       bunzip2 $1   ;;
       *.rar)       unrar x $1   ;;
       *.gz)        gunzip $1    ;;
