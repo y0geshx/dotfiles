@@ -22,6 +22,9 @@ alias sshg="sshpass -p dTnz2IKJkIbb3OjAsLMmFM4 ssh -p 55031 root@3.111.137.132"
 alias autoclean='(set -x; sudo pacman -Rs $(pacman -Qdtq))'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+#startup
+pfetch
+
 #Starship
 #eval "$(starship init zsh)"
 
@@ -52,4 +55,5 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
+
 
