@@ -1,6 +1,6 @@
 export PATH=$HOME/.local/bin:$PATH
 autoload -U colors && colors
-NEWLINE=$'\n'
+#NEWLINE=$'\n'
 #PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[white]%} %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}${NEWLINE}%(?.%F{green} .%F{red}✘) "
 #PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%1~%f%b %# '
 export ZSH="$HOME/.oh-my-zsh"
