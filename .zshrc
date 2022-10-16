@@ -23,7 +23,7 @@ alias autoclean='(set -x; sudo pacman -Rs $(pacman -Qdtq))'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 #startup
-pfetch
+#pfetch
 
 #Starship
 #eval "$(starship init zsh)"
