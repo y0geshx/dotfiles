@@ -18,8 +18,8 @@ window:
   # Specified in number of columns/lines, not pixels.
   # If both are `0`, this setting is ignored.
   dimensions:
-    columns: 74
-    lines: 21
+    columns: 80
+    lines: 26
   opacity: 0.9
 
   # Window position (changes require restart)
