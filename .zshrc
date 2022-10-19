@@ -1,8 +1,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-export EDITOR='nano'
-export VISUAL='nano'
+export EDITOR='vim'
+export VISUAL='vim'
 export PATH=$HOME/.local/bin:$PATH
 
 autoload -U colors && colors
