@@ -66,6 +66,6 @@ let g:rehash256 = 1
 let g:airline_theme='tomorrow'
 set linespace=3
 "set guifont=Fira\ Code:h12
-set cursorline
-colorscheme molokai
+"set cursorline
+"colorscheme molokai
 set laststatus=2
