@@ -20,7 +20,7 @@ source $ZSH/oh-my-zsh.sh
 #fzf dracula
 #export FZF_DEFAULT_OPTS='--color=fg:#f8f8f2,bg:#282a36,hl:#bd93f9 --color=fg+:#f8f8f2,bg+:#44475a,hl+:#bd93f9 --color=info:#ffb86c,prompt:#50fa7b,pointer:#ff79c6 --color=marker:#ff79c6,spinner:#ffb86c,header:#6272a4'
 
-alias vim='nvim'
+#alias vim='nvim'
 alias cpy='xclip -selection c'
 alias h="history | cut -c 8- | sort | uniq | fzf | tr -d '\n' | xclip -selection c"
 alias sshg="sshpass -p dTnz2IKJkIbb3OjAsLMmFM4 ssh -p 55031 root@3.111.137.132"
