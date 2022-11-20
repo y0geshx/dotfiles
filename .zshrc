@@ -23,7 +23,6 @@ source $ZSH/oh-my-zsh.sh
 #alias vim='nvim'
 alias cpy='xclip -selection c'
 alias h="history | cut -c 8- | sort | uniq | fzf | tr -d '\n' | xclip -selection c"
-alias sshg="sshpass -p dTnz2IKJkIbb3OjAsLMmFM4 ssh -p 55031 root@3.111.137.132"
 
 #bare git for dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
