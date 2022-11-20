@@ -56,7 +56,8 @@ set hidden                      " Needed to keep multiple buffers open
 set nobackup                    " No auto backups
 set noswapfile                  " No swap
 set t_Co=256                    " Set if term supports 256 colors.
-set number relativenumber       " Display line numbers
+"set number relativenumber        Display line numbers
+set number
 set clipboard=unnamedplus       " Copy/paste between vim and other programs.
 syntax enable
 set modelines=0
