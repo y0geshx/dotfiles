@@ -159,8 +159,8 @@ alias ram='rate-mirrors --allow-root arch | sudo tee /etc/pacman.d/mirrorlist'
 ##############################################################################
 # custom scripts
 ##############################################################################
-###search 
-se() { du -a | awk '{print $2}' | fzf | xargs -r $EDITOR ; }
+###search configs 
+se() { du -a ~/.config  | awk '{print $2}' | fzf | xargs -r vim ; }
 
 ### Function extract for common file formats ###
 SAVEIFS=$IFS
