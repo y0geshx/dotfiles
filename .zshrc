@@ -33,7 +33,7 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 #PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%1~%f%b %# '
 
-ZSH_THEME="vibrantifix"
+ZSH_THEME="y0geshx"
 
 #starship
 #eval "$(starship init zsh)"
@@ -60,7 +60,7 @@ alias h="history | cut -c 8- | sort | uniq | fzf | tr -d '\n' | xclip -selection
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 #list with lsd
-alias ls='lsd --color=auto'
+alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -la'
 alias l='ls'
@@ -207,5 +207,5 @@ IFS=$SAVEIFS
 
 ##############################################################################
 # END 
-# by @vibrantifix
+# by @yogesh
 ##############################################################################
